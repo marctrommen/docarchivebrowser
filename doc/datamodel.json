@@ -1,0 +1,34 @@
+{	
+	"build_properties" : {
+	},
+
+	"scan_archive_data" : {
+		"<document_id>" : {
+			"id" : "document id, e.g. YYYYMMDD_xx",
+			"title" : "document title",
+			"file" : "filename of document file",
+			"file_fqn" : "full qualified filename of document file",
+			"storage_location" : "description where original is stored",
+			"keywords": [ "list", "of", "keywords" ]
+		},
+		"<document_id>" : {
+			"id" : "document id, e.g. YYYYMMDD_xx",
+			"title" : "document title",
+			"file" : "filename of document file",
+			"file_fqn" : "full qualified filename of document file",
+			"storage_location" : "description where original is stored",
+			"keywords": [ "list", "of", "keywords" ]
+		}
+	},
+	
+	"documents_grouped_by_year" : {
+		2020 : [ "<document_id>", "<document_id>", "<document_id>" ],
+		2019 : [ "<document_id>", "<document_id>" ]
+	},
+	
+	"documents_grouped_by_keyword" : {
+		"keyword_1" : [ "<document_id>", "<document_id>", "<document_id>" ],
+		"keyword_2" : [ "<document_id>", "<document_id>" ]
+	}
+
+}
